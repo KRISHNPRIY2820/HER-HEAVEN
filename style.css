@@ -65,3 +65,21 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+/* Global soothing pastel style for all links */
+a {
+    display: inline-block;
+    background-color: #ffe4ec;  /* soft pastel background */
+    color: #555;                /* calm text color */
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;      /* no underline */
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Hover effect for all links */
+a:hover {
+    background-color: #ffd1e3; /* slightly deeper pastel */
+    transform: scale(1.03);   /* soft grow */
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Her Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌸 Her Haven 🌸</h1>
+        <p>Your safe space for growth, health, and empowerment</p>
+    </header>
+
+    <nav>
+        <a href="#safety">Safety</a>
+        <a href="#education">Education</a>
+        <a href="#health">Health</a>
+        <a href="#finance">Finance</a>
+        <a href="#expression">Expression</a>
+    </nav>
+
+    <main>
+        <section id="safety">
+            <h2>🔒 Safety Tips & Resources</h2>
+            <ul>
+                <li>Always share your location with a trusted friend.</li>
+                <li>Keep emergency contacts saved in speed dial.</li>
+                <li>
+                    <a href="tel:112">Call Emergency Helpline (112)</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>📚 Education Hub</h2>
+            <p>Explore free courses & resources:</p>
+            <ul>
+                <li><a href="#">Free Online Learning Platforms</a></li>
+                <li><a href="#">Scholarship Opportunities</a></li>
+                <li><a href="#">Find a Mentor</a></li>
+            </ul>
+        </section>
+
+        <section id="health">
+            <h2>💖 Health & Wellness</h2>
+            <p>Self-care tips & mental health resources:</p>
+            <ul>
+                <li>Meditation and breathing exercises.</li>
+                <li>Nutrition guides for healthy living.</li>
+                <li><a href="#">Find Local Clinics</a></li>
+            </ul>
+        </section>
+
+        <section id="finance">
+            <h2>💰 Financial Empowerment</h2>
+            <p>Budgeting tools, financial literacy, and funding options:</p>
+            <button onclick="showBudgetTool()">Open Simple Budget Tool</button>
+            <div id="budget-tool" style="display:none;">
+                <label>Income: <input type="number" id="income"></label><br>
+                <label>Expenses: <input type="number" id="expenses"></label><br>
+                <button onclick="calculateBudget()">Calculate Savings</button>
+                <p id="budget-result"></p>
+            </div>
+        </section>
+
+        <section id="expression">
+            <h2>🌼 Voice & Expression</h2>
+            <textarea id="story" placeholder="Share your thoughts..."></textarea><br>
+            <button onclick="postStory()">Post</button>
+            <div id="story-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Her Haven | Built with ❤️ for women everywhere</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
